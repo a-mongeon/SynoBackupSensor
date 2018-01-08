@@ -9,7 +9,7 @@ So, naturally, I searched a solution to replicate this for Synology HyperBackup.
 
 First of all, I'm using CMS (Centralized Managed System) | https://www.synology.com/knowledgebase/DSM/help/CMS/cms_desc
 
-This allows to manage multiple NAS, and, for this case, collect HyperBackup Notifications. CMS use a SQL Lite DataBase to store notifications. This means that it's very simple to query this kind of DataBase.
+This Synology package allows to manage multiple NAS, and, for this case, collect HyperBackup Notifications. CMS use a SQL Lite DataBase to store notifications. This means that it's very simple to query this kind of DataBase.
 
 Imagine we have a dozain of NAS, all connected to the CMS host. Backup Notifications are enabled on each NAS.
 The host will receive all notifications relating to backups.
