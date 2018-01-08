@@ -2,6 +2,7 @@
 PRTG Sensor for Synology backup tasks
 
 If you have multiple Synology NAS and a lot of backup tasks, maybe you know the struggle to be aware of failed backups. E-Mails are good, but, if a NAS is down, there is no e-mail alert. 
+
 I'm used to work with PRTG to monitor Windows and Unix networks. This software is pretty cool, specialy for backups sensors. With few Hyper-V hosts and Altaro VM Backup, I'm using this script : https://kb.paessler.com/en/topic/64559-how-can-i-monitor-my-altaro-hyperv-backup-event-logs-and-make-prtg-notify-me to monitor backups. Such a time saving !
 
 So, naturally, I searched a solution to replicate this for Synology HyperBackup. 
