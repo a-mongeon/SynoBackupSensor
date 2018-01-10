@@ -23,4 +23,9 @@ mount --bind /var/packages/CMS/target/db /volume1/SynoBackupSensor
 
 If your Windows Server use a username with correct rights, you'll can read the file nc_db.sqlite 
 
-P.S: Read-only rights on /volume1/SynoBackupSensor guarantee the good functionning of CMS. 
+If you want to be able to read the file directly from you NAS, you had to change the account for PRTGProbeService, to the account who whas access to the NAS. Didn't find other solution for this.
+
+You can download the last version here (v1.1): https://github.com/Areku95/SynoBackupSensor/releases
+
+P.S: Read-only rights on /volume1/SynoBackupSensor guarantee the good functionning of CMS.
+
